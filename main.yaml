@@ -1,7 +1,7 @@
 - name: configure frontend server
   hosts: frontend
   become: yes
-  #serial: 2
+  serial: 2
   tasks:
   - name: ping
     ping:

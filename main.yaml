@@ -6,6 +6,6 @@
   - name: ping
     ping:
   - name: install nginx
-     package:
-       name: nginx
-       state: present
+    package:
+        name: nginx
+        state: present

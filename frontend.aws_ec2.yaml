@@ -6,3 +6,7 @@ regions:
 hostnames:
  #- ip-address
  - private-ip-address
+
+filters:
+  tag:Name: frontend
+  instance-state-name: running

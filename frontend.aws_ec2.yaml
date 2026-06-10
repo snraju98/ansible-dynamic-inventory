@@ -10,3 +10,7 @@ hostnames:
 filters:
   tag:Name: frontend
   instance-state-name: running
+
+keyed-groups:
+ -key: ec2-tags.Name
+   seperator: ''
